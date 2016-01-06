@@ -60,14 +60,14 @@ workflow StopMyAzureVMs
 
        Write-Output "-------------------------------------------------------------------------"
 
-       Write-Output "Starting the Shutdown NOW!"
-
-       Get-AzureVM | select name | ForEach-Object {
-        $StopOutPut = Stop-AzureVM -ServiceName $_.Name -Name $_.Name -Force
-           Write-Output "Shutting down :  $_.Name "
-           #Write-Output $StopOutPut
-           
-           }
+#       Write-Output "Starting the Shutdown NOW!"
+#
+#      Get-AzureVM | select name | ForEach-Object {
+#      $StopOutPut = Stop-AzureVM -ServiceName $_.Name -Name $_.Name -Force
+#           Write-Output "Shutting down :  $_.Name "
+#           #Write-Output $StopOutPut
+#           
+#           }
 
        Write-Output "-------------------------------------------------------------------------"
  
