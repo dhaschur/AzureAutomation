@@ -1,11 +1,11 @@
 <#
 
 .NOTES
-	Author: Peter Selch Dahl
-	Last Updated: 4/14/2014  
+	Author: DHA
+	Last Updated: 1/07/2016
 #>
 
-workflow StopMyAzureVMs
+workflow DoAzureStuff
 {   
       param(   )
 
